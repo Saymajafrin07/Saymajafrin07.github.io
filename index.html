@@ -1,116 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayma Akhter Jafrin</title>
-
-    <style>
-
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-
-        body{
-
-            font-family:Arial, Helvetica, sans-serif;
-            background:#f5f7fb;
-
-        }
-
-        header{
-
-            background:#0b2343;
-            color:white;
-            padding:100px 40px;
-            text-align:center;
-
-        }
-
-        h1{
-
-            font-size:55px;
-
-        }
-
-        h2{
-
-            margin-top:20px;
-            font-weight:400;
-
-        }
-
-        section{
-
-            width:90%;
-            max-width:1100px;
-            margin:auto;
-            padding:60px 0;
-
-        }
-
-        .card{
-
-            background:white;
-            padding:40px;
-            border-radius:15px;
-            box-shadow:0 10px 25px rgba(0,0,0,.08);
-
-        }
-
-        footer{
-
-            text-align:center;
-            padding:40px;
-            background:#0b2343;
-            color:white;
-
-        }
-
-    </style>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sayma Akhter Jafrin</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6f9;color:#222}
+header{background:#0d2b52;color:#fff;padding:70px 20px;text-align:center}
+header h1{font-size:54px;margin:0}
+header p{font-size:22px;max-width:900px;margin:20px auto}
+nav{background:#fff;padding:15px;text-align:center;position:sticky;top:0;border-bottom:1px solid #ddd}
+nav a{margin:0 15px;text-decoration:none;color:#0d2b52;font-weight:bold}
+section{max-width:1100px;margin:50px auto;background:#fff;padding:40px;border-radius:14px;box-shadow:0 5px 18px rgba(0,0,0,.08)}
+h2{color:#0d2b52}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:#eef3fb;padding:18px;border-radius:10px}
+footer{background:#0d2b52;color:#fff;text-align:center;padding:25px;margin-top:40px}
+.btn{display:inline-block;padding:12px 22px;background:#0d2b52;color:#fff;text-decoration:none;border-radius:6px;margin:8px}
+</style>
 </head>
-
 <body>
-
 <header>
-
 <h1>Sayma Akhter Jafrin</h1>
-
-<h2>
-Researcher | Business Analytics | Artificial Intelligence | Information Systems
-</h2>
-
+<p>Researcher • Business Analytics • Artificial Intelligence • Information Systems • Digital Financial Inclusion</p>
+<a class="btn" href="mailto:saymajafrin07@gmail.com">Email</a>
+<a class="btn" href="https://www.linkedin.com/in/saymajafrin07/" target="_blank">LinkedIn</a>
 </header>
 
-<section>
+<nav>
+<a href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#experience">Experience</a>
+<a href="#leadership">Leadership</a>
+<a href="#awards">Awards</a>
+<a href="#contact">Contact</a>
+</nav>
 
-<div class="card">
-
-<h2>Welcome</h2>
-
-<br>
-
-<p>
-
-Welcome to my academic website.
-
-This website is currently under development and will showcase my research, publications, projects, awards and professional journey.
-
-</p>
-
-</div>
-
+<section id="about">
+<h2>About</h2>
+<p>I am a researcher at UNSW Business School with a background in Business Analytics from HKUST. My work bridges Artificial Intelligence, Information Systems, Financial Inclusion, ESG, Business Analytics and Women's Entrepreneurship. I enjoy translating rigorous research into practical impact.</p>
 </section>
 
-<footer>
+<section id="research">
+<h2>Research Interests</h2>
+<div class="grid">
+<div class="card">Artificial Intelligence</div>
+<div class="card">Business Analytics</div>
+<div class="card">Information Systems</div>
+<div class="card">Digital Finance</div>
+<div class="card">Financial Inclusion</div>
+<div class="card">Women's Entrepreneurship</div>
+<div class="card">ESG & Sustainability</div>
+<div class="card">Responsible AI</div>
+</div>
+</section>
 
-© 2026 Sayma Akhter Jafrin
+<section id="experience">
+<h2>Selected Experience</h2>
+<div class="grid">
+<div class="card"><b>UNSW Business School</b><br>Researcher</div>
+<div class="card"><b>KPMG Hong Kong</b><br>Business Analyst</div>
+<div class="card"><b>HKUST Business School</b><br>Project Lead – BRAC Microfinance</div>
+<div class="card"><b>Mayer Brown LLP</b><br>HR & DEI Analytics</div>
+<div class="card"><b>Asian University for Women</b><br>Teaching Fellow</div>
+<div class="card"><b>Singapore Investment Firm</b><br>Financial Analyst</div>
+</div>
+</section>
 
-</footer>
+<section id="leadership">
+<h2>Leadership & Global Engagement</h2>
+<ul>
+<li>World Economic Forum – Global Shapers</li>
+<li>Harvard Crossroads Emerging Leaders</li>
+<li>HPAIR Harvard</li>
+<li>Hult Prize Foundation</li>
+<li>UNDP Asia-Pacific</li>
+<li>UNLEASH Innovation Lab</li>
+</ul>
+</section>
 
+<section id="awards">
+<h2>Awards</h2>
+<ul>
+<li>UNSW Merit Scholarship</li>
+<li>HKUST Full Merit Scholarship</li>
+<li>AUW Full Scholarship</li>
+<li>Global Top 20 Rockstar Campus Director</li>
+<li>Women in Leadership Award</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: saymajafrin07@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/saymajafrin07</p>
+<p>Medium: medium.com/@sayma.jafrin</p>
+</section>
+
+<footer>© 2026 Sayma Akhter Jafrin</footer>
 </body>
-
 </html>
